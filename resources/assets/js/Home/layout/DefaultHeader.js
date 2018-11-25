@@ -36,9 +36,7 @@ class DefaultHeader extends Component {
             <DropdownToggle nav>
               <img src={avatar} className="img-avatar" alt="admin@bootstrapmaster.com" />
             </DropdownToggle>
-            <DropdownMenu right style={{ right: 'auto' }}>
-              <DropdownItem><i className="fa fa-lock"></i> <a href="/logout">Logout</a></DropdownItem>
-            </DropdownMenu>
+           
           </AppHeaderDropdown>
         </Nav>
         {/* <AppAsideToggler className="d-md-down-none" /> */}

@@ -75557,21 +75557,6 @@ var DefaultHeader = function (_Component) {
               _reactstrap.DropdownToggle,
               { nav: true },
               _react2.default.createElement('img', { src: _2.default, className: 'img-avatar', alt: 'admin@bootstrapmaster.com' })
-            ),
-            _react2.default.createElement(
-              _reactstrap.DropdownMenu,
-              { right: true, style: { right: 'auto' } },
-              _react2.default.createElement(
-                _reactstrap.DropdownItem,
-                null,
-                _react2.default.createElement('i', { className: 'fa fa-lock' }),
-                ' ',
-                _react2.default.createElement(
-                  'a',
-                  { href: '/logout' },
-                  'Logout'
-                )
-              )
             )
           )
         )
