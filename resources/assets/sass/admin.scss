@@ -1,0 +1,75 @@
+$green:#0AC25A;
+$gray:#d4d2d2;
+.kad-navbar{
+    a{
+        color:white;
+    }
+}
+
+.app-header{
+    background:#151921 !important;
+}
+
+.navbar-nav{
+    a{
+        color:white;
+    }
+}
+
+.navbar-toggler-icon{
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    background:unset !important;
+}
+
+.navbar-toggler-icon::before{
+    content: "\f0c9";
+    color:white;
+    position: relative;
+    top: 5px;
+}
+
+.sidebar{
+    background:#efefef !important;
+    a.nav-link{
+        color:black;
+        &:hover{
+            background: $gray !important;
+            color:$green !important;
+            i{
+                color:$green !important;
+            }
+        }
+
+        &.active{
+            background: #e4e4e4;
+            color:$green;
+            i{
+                color:$green !important;
+            }
+        }
+    }
+}
+.nav-title{
+    background:#d4d2d2 !important;
+    color:#717273 !important;
+}
+.main{
+    background:white !important;
+    .container-fluid{
+        margin-bottom: 20px;
+    }
+   
+}
+
+.btn-action{
+    margin-right: 5px;
+}
+
+.pet-tools{
+    margin-bottom:10px;
+}
+
+
